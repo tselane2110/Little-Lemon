@@ -60,17 +60,21 @@ article p{
     flex-wrap: wrap;
 }
 
-.animation-logo{
-    padding-left: 10px;
-    width: 65px;
-    height: auto;
-    padding-top: 23px;
+.footer-logo{
+    width: 35px;
+    height: 55px;
+    justify-content: left;
+    text-align: left;
+    border: 2px solid #495e57;
+    padding: 2px 2px 2px 2px;
+    margin-left: 50px;
 }
 
+
 footer p{
-    padding-left: 20px;
-    padding-top: 55px;
-    justify-content: center;
+    padding-left: 32%;
+    padding-top: 15px;
+    text-align: center;
 }
 
 /* browser specific styling*/
