@@ -70,6 +70,7 @@ article p{
     justify-content: center;
     text-align: justify;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .footer-logo{
