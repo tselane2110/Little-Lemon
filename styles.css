@@ -20,6 +20,12 @@ body{
 .promotion p{    
     border: 2px solid #495e57;
     height: 30px;
+    animation: promotion-zoom-out 1s linear infinite alternate,
+               promotion-zooom-in 1s ease infinite alternate;
+}
+
+.promotion p:hover{
+    cursor: pointer;
 }
 
 .h3-font{
@@ -32,6 +38,10 @@ body{
 
 article .col{
     width: 22rem;
+}
+
+article p{
+    text-overflow: ellipsis;
 }
 
 .blog-div{
@@ -78,4 +88,20 @@ footer p{
   }
 
   
-  
+@keyframes promotion-zoom-out {
+    from{
+        transform: none;
+    }
+    to{
+        transform: scale3d(1.05,1.25, 1.75); 
+    }      
+}
+
+@keyframes promotion-zoom-in {
+    from{
+        transform: scale3d(1.05, 1.25, 1.75);
+    }
+    to{
+        transform: none;
+    }
+}
