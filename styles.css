@@ -1,0 +1,81 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    border: 3px solid #f1df82;  /* #f1df82 */
+}
+
+.little-lemon-logo{
+    width: 30%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.promotion .container{
+    justify-content: center;
+    text-align: center;
+}
+
+.promotion p{    
+    border: 2px solid #495e57;
+    height: 30px;
+}
+
+.h3-font{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #495e57;
+    width: 15rem;
+}
+
+article .col{
+    width: 22rem;
+}
+
+.blog-div{
+    height: 25rem;
+    padding: 2rem;
+    margin: 1rem;
+    border: 2px solid #495e57;
+    background-color: #f4ce14;
+    justify-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.footer-logo{
+    margin-top: 5px;
+    width: 350px;
+    height: 100px;
+}
+
+footer p{
+    padding-left: 20px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+/* browser specific styling*/
+
+/* For Chrome, Safari, and newer versions of Edge */
+::-webkit-scrollbar {
+    width: 1px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Track color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #495e57; /* Thumb color */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #495e57; /* Hover state color */
+  }
+
+  
+  
