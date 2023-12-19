@@ -72,7 +72,8 @@ article p{
 
 
 footer p{
-    padding-left: 32%;
+    justify-content: center;
+    margin-right: 120px;
     padding-top: 15px;
     text-align: center;
 }
