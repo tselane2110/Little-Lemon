@@ -44,7 +44,13 @@ body{
     text-align: center;
     width: 15rem;
     padding-top: 8px;
+    /*text-shadow: 1px 1px #495e57;*/
+    color: #495e57;                     /*#f3cb14*/
+}
+
+strong{
     color: #495e57;
+    text-decoration-line: underline;
 }
 
 article .col{
