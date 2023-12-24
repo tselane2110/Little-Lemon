@@ -44,6 +44,10 @@ span{
     cursor: pointer;
 }
 
+.blogs{
+    margin-top: 30px;
+}
+
 .h3-font{
     font-size: 1.5rem;
     font-weight: bold;
